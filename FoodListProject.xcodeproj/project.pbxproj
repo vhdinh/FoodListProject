@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41D04E891D009FEE00269C56 /* DetailFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D04E881D009FEE00269C56 /* DetailFoodViewController.swift */; };
+		41D04E8B1D00A2C700269C56 /* CancelButtonDelegate2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D04E8A1D00A2C700269C56 /* CancelButtonDelegate2.swift */; };
+		41D04E8D1D00A41E00269C56 /* AddFoodDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D04E8C1D00A41E00269C56 /* AddFoodDelegate.swift */; };
 		41F1E6111CEA706500840C7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1E6101CEA706500840C7E /* AppDelegate.swift */; };
-		41F1E6131CEA706500840C7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1E6121CEA706500840C7E /* ViewController.swift */; };
+		41F1E6131CEA706500840C7E /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1E6121CEA706500840C7E /* FoodViewController.swift */; };
 		41F1E6161CEA706500840C7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41F1E6141CEA706500840C7E /* Main.storyboard */; };
 		41F1E6191CEA706500840C7E /* FoodListProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41F1E6171CEA706500840C7E /* FoodListProject.xcdatamodeld */; };
 		41F1E61B1CEA706500840C7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F1E61A1CEA706500840C7E /* Assets.xcassets */; };
 		41F1E61E1CEA706500840C7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41F1E61C1CEA706500840C7E /* LaunchScreen.storyboard */; };
+		41F1E6291CEA70BF00840C7E /* Food+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1E6251CEA70BF00840C7E /* Food+CoreDataProperties.swift */; };
+		41F1E62A1CEA70BF00840C7E /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1E6261CEA70BF00840C7E /* Food.swift */; };
+		41F1E62B1CEA70BF00840C7E /* Ingredient+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1E6271CEA70BF00840C7E /* Ingredient+CoreDataProperties.swift */; };
+		41F1E62C1CEA70BF00840C7E /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1E6281CEA70BF00840C7E /* Ingredient.swift */; };
+		41F1E62E1CEA760500840C7E /* IngredientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1E62D1CEA760500840C7E /* IngredientViewController.swift */; };
+		41F1E6301CEA845500840C7E /* foodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1E62F1CEA845500840C7E /* foodCell.swift */; };
+		41F1E6341CEA909F00840C7E /* IngredientViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1E6331CEA909F00840C7E /* IngredientViewControllerDelegate.swift */; };
+		41F1E6361CEA97EF00840C7E /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1E6351CEA97EF00840C7E /* CancelButtonDelegate.swift */; };
+		41F1E6381CEAA04400840C7E /* AddIngredientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1E6371CEAA04400840C7E /* AddIngredientViewController.swift */; };
+		41F1E63A1CEAA9B800840C7E /* AddIngredientViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F1E6391CEAA9B800840C7E /* AddIngredientViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41D04E881D009FEE00269C56 /* DetailFoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailFoodViewController.swift; sourceTree = "<group>"; };
+		41D04E8A1D00A2C700269C56 /* CancelButtonDelegate2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate2.swift; sourceTree = "<group>"; };
+		41D04E8C1D00A41E00269C56 /* AddFoodDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFoodDelegate.swift; sourceTree = "<group>"; };
 		41F1E60D1CEA706500840C7E /* FoodListProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodListProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41F1E6101CEA706500840C7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41F1E6121CEA706500840C7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41F1E6121CEA706500840C7E /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		41F1E6151CEA706500840C7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41F1E6181CEA706500840C7E /* FoodListProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodListProject.xcdatamodel; sourceTree = "<group>"; };
 		41F1E61A1CEA706500840C7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41F1E61D1CEA706500840C7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41F1E61F1CEA706500840C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F1E6251CEA70BF00840C7E /* Food+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Food+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		41F1E6261CEA70BF00840C7E /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		41F1E6271CEA70BF00840C7E /* Ingredient+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ingredient+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		41F1E6281CEA70BF00840C7E /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		41F1E62D1CEA760500840C7E /* IngredientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientViewController.swift; sourceTree = "<group>"; };
+		41F1E62F1CEA845500840C7E /* foodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodCell.swift; sourceTree = "<group>"; };
+		41F1E6331CEA909F00840C7E /* IngredientViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientViewControllerDelegate.swift; sourceTree = "<group>"; };
+		41F1E6351CEA97EF00840C7E /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
+		41F1E6371CEAA04400840C7E /* AddIngredientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddIngredientViewController.swift; sourceTree = "<group>"; };
+		41F1E6391CEAA9B800840C7E /* AddIngredientViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddIngredientViewDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +66,10 @@
 		41F1E6041CEA706500840C7E = {
 			isa = PBXGroup;
 			children = (
+				41F1E6251CEA70BF00840C7E /* Food+CoreDataProperties.swift */,
+				41F1E6261CEA70BF00840C7E /* Food.swift */,
+				41F1E6271CEA70BF00840C7E /* Ingredient+CoreDataProperties.swift */,
+				41F1E6281CEA70BF00840C7E /* Ingredient.swift */,
 				41F1E60F1CEA706500840C7E /* FoodListProject */,
 				41F1E60E1CEA706500840C7E /* Products */,
 			);
@@ -57,8 +87,17 @@
 			isa = PBXGroup;
 			children = (
 				41F1E6101CEA706500840C7E /* AppDelegate.swift */,
-				41F1E6121CEA706500840C7E /* ViewController.swift */,
+				41F1E6121CEA706500840C7E /* FoodViewController.swift */,
+				41F1E62D1CEA760500840C7E /* IngredientViewController.swift */,
+				41F1E6391CEAA9B800840C7E /* AddIngredientViewDelegate.swift */,
+				41F1E6331CEA909F00840C7E /* IngredientViewControllerDelegate.swift */,
+				41D04E8C1D00A41E00269C56 /* AddFoodDelegate.swift */,
+				41F1E6371CEAA04400840C7E /* AddIngredientViewController.swift */,
+				41F1E62F1CEA845500840C7E /* foodCell.swift */,
+				41F1E6351CEA97EF00840C7E /* CancelButtonDelegate.swift */,
+				41D04E8A1D00A2C700269C56 /* CancelButtonDelegate2.swift */,
 				41F1E6141CEA706500840C7E /* Main.storyboard */,
+				41D04E881D009FEE00269C56 /* DetailFoodViewController.swift */,
 				41F1E61A1CEA706500840C7E /* Assets.xcassets */,
 				41F1E61C1CEA706500840C7E /* LaunchScreen.storyboard */,
 				41F1E61F1CEA706500840C7E /* Info.plist */,
@@ -138,9 +177,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41F1E6131CEA706500840C7E /* ViewController.swift in Sources */,
+				41F1E6341CEA909F00840C7E /* IngredientViewControllerDelegate.swift in Sources */,
+				41F1E62B1CEA70BF00840C7E /* Ingredient+CoreDataProperties.swift in Sources */,
+				41F1E62E1CEA760500840C7E /* IngredientViewController.swift in Sources */,
+				41F1E6361CEA97EF00840C7E /* CancelButtonDelegate.swift in Sources */,
+				41F1E6131CEA706500840C7E /* FoodViewController.swift in Sources */,
+				41D04E891D009FEE00269C56 /* DetailFoodViewController.swift in Sources */,
+				41F1E63A1CEAA9B800840C7E /* AddIngredientViewDelegate.swift in Sources */,
+				41F1E62C1CEA70BF00840C7E /* Ingredient.swift in Sources */,
+				41D04E8B1D00A2C700269C56 /* CancelButtonDelegate2.swift in Sources */,
 				41F1E6111CEA706500840C7E /* AppDelegate.swift in Sources */,
+				41F1E6381CEAA04400840C7E /* AddIngredientViewController.swift in Sources */,
+				41F1E62A1CEA70BF00840C7E /* Food.swift in Sources */,
+				41D04E8D1D00A41E00269C56 /* AddFoodDelegate.swift in Sources */,
+				41F1E6301CEA845500840C7E /* foodCell.swift in Sources */,
 				41F1E6191CEA706500840C7E /* FoodListProject.xcdatamodeld in Sources */,
+				41F1E6291CEA70BF00840C7E /* Food+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +344,7 @@
 				41F1E6241CEA706500840C7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
